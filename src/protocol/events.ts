@@ -1,5 +1,3 @@
-export type QueueName = 'stack' | 'webApis' | 'tasks' | 'microtasks' | 'console'
-
 export type TraceEvent =
   | { type: 'run:start'; source: string }
   | { type: 'stack:push'; name: string }
